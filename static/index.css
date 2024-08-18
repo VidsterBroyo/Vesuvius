@@ -1,0 +1,101 @@
+body {
+	background-color: #EAE2B7;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container-fluid {
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav {
+	padding: 15px;
+	font-weight: bold;
+}
+
+.nav-link {
+	color: #003049;
+}
+
+.nav-item .nav-link.active  {
+	background-color: #003049;
+}
+
+hr {
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+#header {
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+}
+
+#logo {
+	margin: auto;
+	display: inline-block;
+	height: 100px;
+}
+
+#logoFlipped {
+	transform: scaleX(-1);
+	margin: auto;
+	display: inline-block;
+	height: 100px;
+}
+
+#title {
+	display: inline-block;
+	font-size: 70px;
+}
+
+
+#citiesRow {
+	margin: auto;
+}
+
+.city-card {
+	cursor: pointer;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	margin-bottom: 25px;
+}
+
+.city-card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.city-card .card-body {
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background 0.3s ease-in-out;
+}
+
+.city-card:hover .card-body {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.card-text {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+
+footer {
+	background: #d62828;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+footer p {
+	margin: 0px;
+}

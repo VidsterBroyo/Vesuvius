@@ -1,0 +1,152 @@
+body {
+	background-color: #EAE2B7;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container-fluid {
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav {
+	padding: 15px;
+	font-weight: bold;
+}
+
+.nav-link {
+	color: #003049;
+}
+
+.nav-item .nav-link.active {
+	background-color: #003049;
+}
+
+
+.hero {
+	background: #F77400;
+	text-align: center;
+	padding: 30px 20px;
+}
+
+.hero h1 {
+	margin: 0;
+	font-size: 2.5em;
+}
+
+hr {
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#faq {
+	max-width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #FCBF49;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+	margin-bottom: 15px;
+}
+
+.faq-question {
+	background-color: #333;
+	color: #fff;
+	padding: 15px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+	background-color: #555;
+}
+
+.faq-answer {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+	background-color: #f1f1f1;
+	padding: 0 15px;
+}
+
+.faq-answer p {
+	margin: 15px 0;
+}
+
+
+#contact {
+	background: #FCBF49;
+	color: black;
+	padding: 40px 10%;
+	text-align: center;
+}
+
+#contact h2 {
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form label {
+	margin: 10px 0 5px;
+	text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.contact-form button {
+	background-color: #D62828;
+	color: white;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+	background-color: #ae1919;
+}
+
+footer {
+	background: #d62828;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+footer p {
+	margin: 0px;
+}
+
+summary {
+	font-weight: bold;
+}

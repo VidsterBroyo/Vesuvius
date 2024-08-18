@@ -1,0 +1,104 @@
+body {
+    background-color: #EAE2B7;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #003049;
+}
+
+.nav-item .nav-link.active {
+    background-color: #003049;
+}
+
+hr {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+
+.hero {
+    background: #F77400;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+#missionContainer,
+#imageContainer {
+    padding: 40px;
+}
+
+
+.mission h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team {
+    background: #FCBF49;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    width: 200px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+.team-member p {
+    margin: 0;
+    color: #555;
+}
+
+footer {
+    background: #d62828;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0px;
+}

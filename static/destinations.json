@@ -1,0 +1,677 @@
+[
+	{
+		"country": "Barbados",
+		"city": "Bridgetown",
+		"weather": "hot",
+		"landmarks": "beaches",
+		"activities": "swimming",
+		"budget": "mid-range",
+		"image": "https://cdn-v2.theculturetrip.com/1200x675/wp-content/uploads/2022/01/b8rdn5-e1641559287148.webp"
+	},
+	{
+		"country": "France",
+		"city": "Paris",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://t4.ftcdn.net/jpg/02/96/15/35/360_F_296153501_B34baBHDkFXbl5RmzxpiOumF4LHGCvAE.jpg"
+	},
+	{
+		"country": "Switzerland",
+		"city": "Zurich",
+		"weather": "chilly",
+		"landmarks": "mountains",
+		"activities": "hiking",
+		"budget": "luxury",
+		"image": "https://cdn.britannica.com/44/102444-050-7260C54D/Zurich-Switzerland.jpg"
+	},
+	{
+		"country": "Australia",
+		"city": "Sydney",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "swimming",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMCmWk4wlCJzJiObfu4UH_NcsN_9Sbp_9Bw&s"
+	},
+	{
+		"country": "Japan",
+		"city": "Tokyo",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://media.nomadicmatt.com/2024/tokyothings.jpeg"
+	},
+	{
+		"country": "USA",
+		"city": "New York",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Pmq3Gv7y7z_2Xun-OqMIk43kd5u0TXEatw&s"
+	},
+	{
+		"country": "Brazil",
+		"city": "Rio de Janeiro",
+		"weather": "hot",
+		"landmarks": "beaches",
+		"activities": "swimming",
+		"budget": "budget-friendly",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLVKhtF3WT2iK5JMqzc7788QhUa0Wo8JAH0A&s"
+	},
+	{
+		"country": "South Africa",
+		"city": "Cape Town",
+		"weather": "warm",
+		"landmarks": "mountains",
+		"activities": "hiking",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1BGOSxCuzSwxyC8uD_A7FB__l3KfqEs8cpg&s"
+	},
+	{
+		"country": "Turkey",
+		"city": "Istanbul",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://cdn.britannica.com/58/93158-050-7719EB2B/view-Blue-Mosque-Istanbul-Hagia-Sophia.jpg"
+	},
+	{
+		"country": "UAE",
+		"city": "Dubai",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://img.etimg.com/thumb/width-640,height-480,imgsize-104894,resizemode-75,msid-105355936/news/international/uae/dubai-and-the-uae-a-global-wealth-nexus.jpg"
+	},
+	{
+		"country": "Egypt",
+		"city": "Cairo",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://images.adsttc.com/media/images/64a2/cdae/cb9c/464f/a63a/9764/newsletter/cairo-architecture-city-guide-exploring-the-unique-architectural-blend-of-historical-and-contemporary-in-egypts-bustling-capital_23.jpg?1688391095"
+	},
+	{
+		"country": "Thailand",
+		"city": "Bangkok",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://i0.wp.com/travelgangtok.com/blog/wp-content/uploads/2023/12/Bangkok-Thailand.jpg?resize=741%2C437&ssl=1"
+	},
+	{
+		"country": "Italy",
+		"city": "Rome",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://tourismmedia.italia.it/is/image/mitur/20220127150143-colosseo-roma-lazio-shutterstock-756032350-1?wid=520&hei=320&fit=constrain,1&fmt=webp"
+	},
+	{
+		"country": "Canada",
+		"city": "Toronto",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiNdPleR4vwnKWMne9KfLwzzgs7r8oPFjaRQ&s"
+	},
+	{
+		"country": "USA",
+		"city": "Los Angeles",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "swimming",
+		"budget": "luxury",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/278px-Los_Angeles_with_Mount_Baldy.jpg"
+	},
+	{
+		"country": "Morocco",
+		"city": "Marrakech",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqGQEf4rHhqGkPQ0keclMtexoxLqHD6muhYA&s"
+	},
+	{
+		"country": "New Zealand",
+		"city": "Auckland",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "swimming",
+		"budget": "mid-range",
+		"image": "https://www.travelandleisure.com/thmb/dQxH74Jlg6DggoHbo-ZMEvMhIFA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/auckland-city-AUCKLANDTG0621-c9f8c81db1274fd99821dd508cc7aff8.jpg"
+	},
+	{
+		"country": "Portugal",
+		"city": "Lisbon",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://www.oliverstravels.com/blog/wp-content/uploads/2019/05/Sintra-Coast-V2.jpg"
+	},
+	{
+		"country": "China",
+		"city": "Hong Kong",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://cdn.britannica.com/96/84796-050-C4DEA436/Hong-Kong-Island-Victoria-Peak.jpg"
+	},
+	{
+		"country": "Greece",
+		"city": "Athens",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://cdn.britannica.com/10/102310-050-539135AF/Parthenon-Acropolis-Athens.jpg"
+	},
+	{
+		"country": "Cuba",
+		"city": "Havana",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVWbVox_UmAl0PyvbBSzPh3oEVlEum8kExeQ&s"
+	},
+	{
+		"country": "Iceland",
+		"city": "Reykjavik",
+		"weather": "chilly",
+		"landmarks": "mountains",
+		"activities": "hiking",
+		"budget": "mid-range",
+		"image": "https://cdn.britannica.com/71/73371-050-9DFAEC1E/Reykjavik-Iceland.jpg"
+	},
+	{
+		"country": "Argentina",
+		"city": "Buenos Aires",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://cdn.britannica.com/40/195440-050-B3859318/Congressional-Plaza-building-National-Congress-Buenos-Aires.jpg"
+	},
+	{
+		"country": "Malaysia",
+		"city": "Kuala Lumpur",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://cdn.britannica.com/49/102749-050-B4874C95/Kuala-Lumpur-Malaysia.jpg"
+	},
+	{
+		"country": "Germany",
+		"city": "Berlin",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Museumsinsel_Berlin_Juli_2021_1_%28cropped%29.jpg/800px-Museumsinsel_Berlin_Juli_2021_1_%28cropped%29.jpg"
+	},
+	{
+		"country": "Austria",
+		"city": "Vienna",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://www.travelandleisure.com/thmb/CPTngD2lPFNJUYQbxxq49ZxWw48=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-ring-road-TODOVIENNA0823-ced85e03b1624795b50d1a58f644f8db.jpg"
+	},
+	{
+		"country": "South Korea",
+		"city": "Seoul",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://ik.imgkit.net/3vlqs5axxjf/external/http://images.ntmllc.com/v4/destination/South-Korea/Seoul/219740_SCN_Seoul_iStock521707831_ZC35CD.jpg?tr=w-1200%2Cfo-auto"
+	},
+	{
+		"country": "Philippines",
+		"city": "Manila",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://cdn.britannica.com/81/196781-050-CA29F2C8/Manila.jpg"
+	},
+	{
+		"country": "Monaco",
+		"city": "Monte Carlo",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlbqOWoCCosbDDv-sOIo4eso0kPjh53CzB0g&s"
+	},
+	{
+		"country": "Spain",
+		"city": "Madrid",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://www.hotelpuertamerica.com/uploads/9/8/2/4/98249186/adobestock-103181516_1_orig.jpg"
+	},
+	{
+		"country": "Sweden",
+		"city": "Stockholm",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://imageio.forbes.com/specials-images/imageserve/615f2c3ed2ddbece4386bcaa/A-waterfront-scene-in-Stockholm-Old-Town/960x0.jpg?height=474&width=711&fit=bounds"
+	},
+	{
+		"country": "Mexico",
+		"city": "Mexico City",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://media.cntraveler.com/photos/640b605c63c7e54952eb4d22/4:3/w_1600%2Ch_1200%2Cc_limit/Mexico%2520City_GettyImages-638920569.jpg"
+	},
+	{
+		"country": "Ukraine",
+		"city": "Kyiv",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://media.cnn.com/api/v1/images/stellar/prod/220325023150-0319-ukraine-historical-sites-threatened-10-restricted.jpg?c=original"
+	},
+	{
+		"country": "Portugal",
+		"city": "Porto",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2020/02/21120823/Ribeira-the-old-town-of-Porto-and-the-river-Douro_XXL.jpg"
+	},
+	{
+		"country": "Saudi Arabia",
+		"city": "Riyadh",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2r7TaX0PbZUrSkAFUiJkc8Do8REMXTEMFeg&s"
+	},
+	{
+		"country": "Jordan",
+		"city": "Amman",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://i.natgeofe.com/n/cb246f4f-035b-4054-9176-34936da16865/king-abdullah-mosque-amman-jordan.jpg"
+	},
+	{
+		"country": "Czech Republic",
+		"city": "Prague",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://uceap.universityofcalifornia.edu/sites/default/files/marketing-images/life-in-city-images/prague-czech-republic-glance.jpg"
+	},
+	{
+		"country": "Hungary",
+		"city": "Budapest",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://cdn.hswstatic.com/gif/s1/mq_travel/gettyimages-544040400-scaled.jpg"
+	},
+	{
+		"country": "Poland",
+		"city": "Kraków",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://cdn.britannica.com/01/177901-050-91C0135B/Cloth-Hall-square-Poland-Krakow.jpg"
+	},
+	{
+		"country": "Romania",
+		"city": "Bucharest",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnOn5uAYdbX-emH3UU5YwF7JRActVhMdpjeQ&s"
+	},
+	{
+		"country": "Serbia",
+		"city": "Belgrade",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://media.cntraveler.com/photos/58ed22a51d750d1eb85fb1a9/16:9/w_2560%2Cc_limit/belgrade-at-night-GettyImages-491523503.jpg"
+	},
+	{
+		"country": "Croatia",
+		"city": "Zagreb",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP-fT4wD6qJzmgqC0U9Ei0bxBGIp4MoN8MVw&s"
+	},
+	{
+		"country": "Slovenia",
+		"city": "Ljubljana",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://cdn.britannica.com/79/124479-050-DD359499/Ljubljana-Slovenia.jpg"
+	},
+	{
+		"country": "Bulgaria",
+		"city": "Sofia",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsyfIYUuzntfd5GCNvYv0eLT9XH4hFxs7o5g&s"
+	},
+	{
+		"country": "Georgia",
+		"city": "Tbilisi",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://static01.nyt.com/images/2018/06/17/travel/17hours1/merlin_138493119_dc17f17f-96a2-4487-a9ea-214914926374-superJumbo.jpg"
+	},
+	{
+		"country": "Armenia",
+		"city": "Yerevan",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://cdn.britannica.com/85/133085-050-FF7058E4/Yerevan-peaks-Arm-background-Mount-Ararat.jpg"
+	},
+	{
+		"country": "Kazakhstan",
+		"city": "Almaty",
+		"weather": "chilly",
+		"landmarks": "mountains",
+		"activities": "hiking",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AApU3ObhQUWymrfHRU4oVTygaO4tDOoxag&s"
+	},
+	{
+		"country": "Uzbekistan",
+		"city": "Tashkent",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://trvlland.com/wp-content/uploads/2022/09/uzbekistan_tashkent-3.jpg"
+	},
+	{
+		"country": "Turkmenistan",
+		"city": "Ashgabat",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://cdn.britannica.com/20/146620-050-B0F6BDD6/palace-Ashgabat-Turkm.jpg"
+	},
+	{
+		"country": "Mongolia",
+		"city": "Ulaanbaatar",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://www.toursmongolia.com/uploads/Mongolia_Ulaanbaatar_city_tours.jpg"
+	},
+	{
+		"country": "Nepal",
+		"city": "Kathmandu",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0bBick6FViilnuSaORdp2pOwtt5OGpBCpow&s"
+	},
+	{
+		"country": "Sri Lanka",
+		"city": "Colombo",
+		"weather": "hot",
+		"landmarks": "beaches",
+		"activities": "swimming",
+		"budget": "mid-range",
+		"image": "https://www.andbeyond.com/wp-content/uploads/sites/5/colombo-sri-lanka.jpg"
+	},
+	{
+		"country": "Vietnam",
+		"city": "Hanoi",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9f0exd7Q-DXq-uk_6pGQAnQ7lG8LI0W1szQ&s"
+	},
+	{
+		"country": "Philippines",
+		"city": "Manila",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://cdn.britannica.com/81/196781-050-CA29F2C8/Manila.jpg"
+	},
+	{
+		"country": "Malaysia",
+		"city": "Kuala Lumpur",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://cdn.britannica.com/49/102749-050-B4874C95/Kuala-Lumpur-Malaysia.jpg"
+	},
+	{
+		"country": "Singapore",
+		"city": "Singapore",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://media.cnn.com/api/v1/images/stellar/prod/191212182124-04-singapore-buildings.jpg?q=x_3,y_153,h_1684,w_2993,c_crop/h_833,w_1480"
+	},
+	{
+		"country": "Qatar",
+		"city": "Doha",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://imagedelivery.net/0LMYosKeo5o-LXOCjdKUuA/tourscanner.com/2022/06/things-to-do-in-Doha-Qatar.jpg/w=1200"
+	},
+	{
+		"country": "Oman",
+		"city": "Muscat",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://cdn.mos.cms.futurecdn.net/nCxeLJ64Nd8PH88rAtg6aZ-1200-80.jpg"
+	},
+	{
+		"country": "Lebanon",
+		"city": "Beirut",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/11/22/08/beirut-aerial-view.jpg?quality=75&width=1200&auto=webp"
+	},
+	{
+		"country": "United Kingdom",
+		"city": "London",
+		"weather": "chilly",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNLhqqEOOBzvZ44xKRuDR_bVEtpsMLWGh78Q&s"
+	},
+	{
+		"country": "Greece",
+		"city": "Santorini",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuL6kEe74fIfzEk2X-SG6e9RRMYn07G631Nw&s"
+	},
+	{
+		"country": "Mexico",
+		"city": "Cancún",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "swimming",
+		"budget": "budget-friendly",
+		"image": "https://www.ca.kayak.com/rimg/dimg/dynamic/376-1688636677-front-door-2_gettyimages-585203859_universal_within-usage-period_77945.jpeg?height=768&width=1366&crop=true"
+	},
+	{
+		"country": "Thailand",
+		"city": "Krabi",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "hiking",
+		"budget": "budget-friendly",
+		"image": "https://www.remotelands.com/storage/media/2715/conversions/b130118016-banner-size.jpg"
+	},
+	{
+		"country": "Spain",
+		"city": "Mallorca",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "hiking",
+		"budget": "mid-range",
+		"image": "https://assets3.thrillist.com/v1/image/3109522/1200x600/scale;;webp=auto;jpeg_quality=85.jpg"
+	},
+	{
+		"country": "Seychelles",
+		"city": "Mahé",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "hiking",
+		"budget": "luxury",
+		"image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4d/45/be/mahe-island.jpg?w=1400&h=1400&s=1"
+	},
+	{
+		"country": "Vietnam",
+		"city": "Da Nang",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://www.telegraph.co.uk/content/dam/travel/Spark/Hayes-and-Jarvis/HayesJarvis-da-nang-night-getty.jpg?imwidth=680"
+	},
+	{
+		"country": "Maldives",
+		"city": "Malé",
+		"weather": "warm",
+		"landmarks": "beaches",
+		"activities": "sightseeing",
+		"budget": "luxury",
+		"image": "https://vacationtomaldives.com/wp-content/uploads/male-capital-of-maldives.jpg"
+	},
+	{
+		"country": "Mexico",
+		"city": "Oaxaca",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "hiking",
+		"budget": "budget-friendly",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgoSTBLI812MljKzwby6qJL-v1SmgsO9RKzw&s"
+	},
+	{
+		"country": "Turkey",
+		"city": "Cappadocia",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "hiking",
+		"budget": "mid-range",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/The_Mexican_in_Cappadocia.jpg/2560px-The_Mexican_in_Cappadocia.jpg"
+	},
+	{
+		"country": "Jordan",
+		"city": "Petra",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "hiking",
+		"budget": "luxury",
+		"image": "https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg"
+	},
+	{
+		"country": "Egypt",
+		"city": "Giza",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://i.natgeofe.com/n/535f3cba-f8bb-4df2-b0c5-aaca16e9ff31/giza-plateau-pyramids.jpg"
+	},
+	{
+		"country": "Mexico",
+		"city": "Chichen Itza",
+		"weather": "warm",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "budget-friendly",
+		"image": "https://cdn.britannica.com/86/179586-138-8B763D72/Overview-Chichen-Itza-Yucatan-Mexico.jpg"
+	},
+	{
+		"country": "India",
+		"city": "Agra",
+		"weather": "hot",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://content.r9cdn.net/rimg/dimg/f5/e5/a45c961d-city-29118-164803dbdc7.jpg?width=1366&height=768&xhint=1708&yhint=561&crop=true"
+	},
+	{
+		"country": "China",
+		"city": "Beijing",
+		"weather": "cold",
+		"landmarks": "historical sites",
+		"activities": "sightseeing",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmG4aAdn4lV3BOvIS1fMnpbyqLXzvSSHJ3nA&s"
+	},
+	{
+		"country": "Italy",
+		"city": "Naples",
+		"weather": "warm",
+		"landmarks": "mountains",
+		"activities": "hiking",
+		"budget": "mid-range",
+		"image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSEKMuM2m1d1xllSvV6oQ99fYoG5Z8h9nlkdCBhAeD8zIEhRJZNmcPGyCuSCObgfJcXKDNJncmS09u9Lz3D5AydIVe08729bwwbMpS1BQ"
+	}
+]

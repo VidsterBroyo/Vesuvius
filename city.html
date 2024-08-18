@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" id="favicon" href="static/img/vesuviusLogo.png" type="image/png">
+	<title>Vesuvius</title>
+
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+	<script src="static/fetchCityInfo.js"></script>
+	<link href="static/city.css" rel="stylesheet">
+
+
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+</head>
+
+<body onload="loadCitySite()">
+	<div class="container">
+		<ul class="nav nav-pills nav-fill">
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="/index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/aboutus.html">About Us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/personalize.html">Personalize Your Trip!</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/FAQ.html">FAQ</a>
+			</li>
+		</ul>
+
+	</div>
+
+	<div class="container-fluid">
+		<hr>
+	</div>
+
+	<div class="container">
+
+
+		<div id="header">
+			<h1 id="cityName"></h1>
+		</div>
+
+
+		<div class="row" id="moduleRow">
+			<div class="col-md-4">
+				<div id="timeModule">
+					<div class="clock">
+
+						<label id="three"><span>3</span></label>
+						<label id="six"><span>6</span></label>
+						<label id="nine"><span>9</span></label>
+						<label id="twelve"><span>12</span></label>
+						<label id="ampm"><span id="period">PM</span></label>
+
+
+						<div class="indicator">
+							<span class="hand hour"></span>
+							<span class="hand minute"></span>
+							<span class="hand second"></span>
+						</div>
+					</div>
+
+
+					<p id="date">Sunday, August 18</p>
+				</div>
+
+			</div>
+
+			<div class="col-md-4">
+				<div id="weatherModule">
+					<img id="weatherIcon" height="200px">
+					<p id="weatherDesc">weather</p>
+					<p id="temperature">__°C</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div id="doubleModule">
+
+					<div class="row">
+						<div class="col-md-12">
+							<div id="infoModule">
+								<p id="emergency">Emergency Number: </p>
+								<p id="languages">Languages Spoken: </p>
+							</div>
+						</div>
+
+
+						<div class="col-md-12">
+							<div id="currencyModule">
+								<p>Currency: <span id="currencyName"></span> (<span id="currencyTicker"></span>, <span
+										id="currencySymbol"></span>)</p>
+
+
+								1 <select id="baseCurrency" onchange="loadConversionRate()">
+									<option value="CAD" selected>CAD</option>
+									<option value="USD">USD</option>
+									<option value="EUR">EUR</option>
+									<option value="GBP">GBP</option>
+									<option value="JPY">JPY</option>
+									<option value="LKR">LKR</option>
+									<option value="AUD">AUD</option>
+									<option value="INR">INR</option>
+									<option value="CNY">CNY</option>
+									<option value="NZD">NZD</option>
+									<option value="MXN">MXN</option>
+									<option value="BRL">BRL</option>
+									<option value="ZAR">ZAR</option>
+									<option value="SGD">SGD</option>
+									<option value="KRW">KRW</option>
+								</select>
+
+								<p id="conversionP"> = <span id="conversionSymbol"></span><span
+										id="conversionRate"></span>
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+		<br>
+		<hr>
+
+		<br>
+		<div id="hotelContainer">
+			<div class="rating">
+
+				<input onclick="loadHotels()" type="radio" id="star5" name="rating" value="5">
+				<label for="star5" title="5 stars">☆</label>
+
+				<input onclick="loadHotels()" type="radio" id="star4" name="rating" value="4" checked>
+				<label for="star4" title="4 stars">☆</label>
+
+				<input onclick="loadHotels()" type="radio" id="star3" name="rating" value="3">
+				<label for="star3" title="3 stars">☆</label>
+
+				<input onclick="loadHotels()" type="radio" id="star2" name="rating" value="2">
+				<label for="star2" title="2 stars">☆</label>
+
+				<input onclick="loadHotels()" type="radio" id="star1" name="rating" value="1">
+				<label for="star1" title="1 star">☆</label>
+
+				<div class="rating-text">Select minimum hotel rating</div>
+
+			</div>
+
+
+			<table class="table table-hover" id="hotelTable">
+				<thead>
+					<tr>
+						<th>Hotel</th>
+						<th>Rating</th>
+					</tr>
+				</thead>
+
+				<tbody id="hotelBody">
+					<tr>
+						<td>The Stafford London Preferred</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>Jw Marriott Grosvenor House</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>West Lodge Park Hotel</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>Radisson Blu Sussex London</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>Amba Hotel Charing Cross</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>Radisson Blu Grafton London</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>Ramada Hotel And Suites London</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>Haverstock</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>Grange City</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>Covent Garden Hotel</td>
+						<td>5</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<br>
+
+			<button class="toggleTables" onclick="toggleTables()">Explore Places to Visit</button>
+		</div>
+
+
+		<div id="placeContainer">
+			<div class="spacer"></div>
+			<table class="table table-hover" id="placeTable">
+				<thead>
+					<tr>
+						<th>Places to Visit</th>
+					</tr>
+				</thead>
+				<tbody id="placeBody">
+					<tr>
+						<td>Mileage Central Point of London Plaque</td>
+					</tr>
+					<tr>
+						<td>Charles I</td>
+					</tr>
+					<tr>
+						<td>Trafalgar Square</td>
+					</tr>
+					<tr>
+						<td>Nelson's Column</td>
+					</tr>
+					<tr>
+						<td>Lion</td>
+					</tr>
+					<tr>
+						<td>Lion</td>
+					</tr>
+					<tr>
+						<td>Horatio Nelson</td>
+					</tr>
+					<tr>
+						<td>Lion</td>
+					</tr>
+					<tr>
+						<td>Lion</td>
+					</tr>
+					<tr>
+						<td>Henry Havelock</td>
+					</tr>
+					<tr>
+						<td>Nelson's Column</td>
+					</tr>
+					<tr>
+						<td>Havelock</td>
+					</tr>
+					<tr>
+						<td>Lion</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+
+			<button class="toggleTables" onclick="toggleTables()">Explore Hotels to Stay at</button>
+		</div>
+
+
+		<div id="mapContainer">
+			<div class="spacer"></div>
+
+			<div id="map">
+			</div>
+		</div>
+
+		<br><br>
+		<hr>
+		<br>
+
+
+
+
+		<div id="news">
+			<h2>News in Toronto</h2>
+			<div class="row" id="newsRow">
+				<div class="col-md-4">
+					<div class="card">
+						<img src="https://imageio.forbes.com/specials-images/imageserve/66bb4c445ec35ad83ccc854b/0x0.jpg?format=jpg&amp;height=900&amp;width=1600&amp;fit=bounds"
+							class="card-img-top">
+						<div class="card-body">
+							<p class="card-text"><a
+									href="http://www.forbes.com/sites/joanmacdonald/2024/08/13/sandra-yi-sencindiver-talks-diversity-geek-girl-and-alien-earth/">2024
+									Toronto International Film Festival Features Korean Films</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<img src="https://ca-times.brightspotcdn.com/dims4/default/509c03d/2147483647/strip/true/crop/5879x3086+0+416/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd3%2Fa4%2Ffd4b0558482dbb61200a5865f73f%2Fap24226096539709.jpg"
+							class="card-img-top">
+						<div class="card-body">
+							<p class="card-text"><a
+									href="https://www.baseball-reference.com/players/m/moniami01.shtml">Angels hit a
+									couple of homers, but it's not enough to beat Toronto</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<img src="https://www.gannett-cdn.com/authoring/authoring-images/2024/08/08/USAT/74729667007-usatsi-23950195.jpg?auto=webp&amp;crop=4363,2453,x0,y0&amp;format=pjpg&amp;width=1200"
+							class="card-img-top">
+						<div class="card-body">
+							<p class="card-text"><a
+									href="https://tv.apple.com/us/sporting-event/seattle-sounders-fc-vs-la-galaxy/umc.cse.2krtnb98bgty5lm2mexldnfim?ctx_brand=tvs.sbd.7000">Inter
+									Miami vs. Toronto live updates: Leagues Cup tournament scores, highlights</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/id50oTdiHd84/v1/1200x800.jpg"
+							class="card-img-top">
+						<div class="card-body">
+							<p class="card-text"><a href="undefined">Condo Rents in Toronto Decrease for First Time in
+									Three Years</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<img src="https://ca-times.brightspotcdn.com/dims4/default/3523c8a/2147483647/strip/true/crop/6355x3336+0+450/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F36%2F44%2F8dbad79741838877433ad07797a7%2Fblue-jays-diamondbacks-baseball-16595.jpg"
+							class="card-img-top">
+						<div class="card-body">
+							<p class="card-text"><a
+									href="https://www.baseball-reference.com/players/t/turneju01.shtml">Former Dodger
+									Justin Turner traded from Toronto to Seattle</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNYHBGshqFU4/v1/1200x803.jpg"
+							class="card-img-top">
+						<div class="card-body">
+							<p class="card-text"><a href="https://www.bloomberg.com/quote/FCU:CN">Toronto Sees ‘Win’ in
+									First New Foreign Miner Listing Since 2022</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
