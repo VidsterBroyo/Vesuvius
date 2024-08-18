@@ -6,7 +6,7 @@ async function loadDestinations() {
     try {
         const response = await fetch('static/destinations.json');
         destinations = await response.json();
-        console.log(destinations)
+        console.log(destinations);
 
     } catch (error) {
         console.error("Error fetching destinations:", error);
@@ -14,6 +14,7 @@ async function loadDestinations() {
 }
 
 
+// recommend city
 function recommendCity() {
 
     const weather = document.getElementById('weather').value;
@@ -33,7 +34,7 @@ function recommendCity() {
         dest.budget === budget
     );
 
-    console.log(filteredDestinations)
+    console.log(filteredDestinations);
 
     // create posters for the filtered destinations
     filteredDestinations.forEach(dest => {
@@ -46,8 +47,6 @@ function recommendCity() {
                 </div>
             </div>
         </div>`
-
-    
     });
 
     if (filteredDestinations.length === 0) {
@@ -56,9 +55,9 @@ function recommendCity() {
 }
 
 
-
+// set local storage variables to keep track of city + country
 function chooseCity(city, country){
-  localStorage.setItem("city", city)
-  localStorage.setItem("country", country)
-  window.location.href = "city.html"
+  localStorage.setItem("city", city);
+  localStorage.setItem("country", country);
+  window.location.href = "city.html";
 }

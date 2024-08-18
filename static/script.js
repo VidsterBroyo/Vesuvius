@@ -4,14 +4,14 @@ async function loadCities(){
   try {
     const response = await fetch('static/destinations.json');
     destinations = await response.json();
-    console.log(destinations)
+    console.log(destinations);
 
   } catch (error) {
     console.error("Error fetching destinations:", error);
   }
 
-  let cityRow = document.getElementById("citiesRow")
-  cityRow.innerHTML = ''
+  let cityRow = document.getElementById("citiesRow");
+  cityRow.innerHTML = '';
 
   destinations.forEach((element) => {
     cityRow.innerHTML += 
@@ -25,13 +25,13 @@ async function loadCities(){
             </div>
             `
   });
-  
 
 }
 
 
+// set local storage variables to keep track of city + country
 function chooseCity(city, country){
-  localStorage.setItem("city", city)
-  localStorage.setItem("country", country)
-  window.location.href = "city.html"
+  localStorage.setItem("city", city);
+  localStorage.setItem("country", country);
+  window.location.href = "city.html";
 }
