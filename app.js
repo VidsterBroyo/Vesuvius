@@ -7,8 +7,8 @@ app.use("/static", express.static('./static/'))
 
 const PORT = process.env.PORT || 5000
 
-const amadeusAPIKey = 'ZMqXzz6tl9Xr7Gl99Xrgd0dSzewHzKov';
-const amadeusAPISecret = 'vcGMsy13r0Pc2GsE';
+const amadeusAPIKey = 'removed';
+const amadeusAPISecret = 'removed';
 
 let tokenData;
 let accessToken;
